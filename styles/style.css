@@ -17,3 +17,13 @@ body{
 	text-align: center;
 
 }
+.images {
+	width: 90%;
+	margin: 24px ;
+	text-align: justify;
+	object-position: right;
+}
+
+.images img {
+	object-position: left;
+}

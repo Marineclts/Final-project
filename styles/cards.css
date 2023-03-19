@@ -1,3 +1,4 @@
+
 .cards{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr ;
@@ -16,4 +17,23 @@
 	height: 250px;
 	width: 250px;
 	object-fit: cover;
+}
+.images{
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-gap: 16px;
+}
+.images {
+	background-color: white ;
+	padding: 24px;
+	border-radius: 6px;
+	box-shadow: 1px 2px 4px 6px rgba(0, 0, 0, 6);
+	text-align: center;
+}
+
+.images img {
+	height: 400px;
+	width: 600px;
+	object-fit: cover;
+	object-position: center;
 }

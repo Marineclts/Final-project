@@ -1,6 +1,6 @@
 #banner {
 	height: 75vh;
-	background-image: url("../images/banner.jpg");
+	background-image: url("../images/banner.jpeg");
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -9,6 +9,4 @@
 	align-items: center;
 	color: white;
 	text-shadow: 3px 2px 2px black;
-
-
 }
